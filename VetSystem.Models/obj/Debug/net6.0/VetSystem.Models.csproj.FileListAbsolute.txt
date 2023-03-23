@@ -1,0 +1,12 @@
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\bin\Debug\net6.0\VetSystem.Models.deps.json
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\bin\Debug\net6.0\VetSystem.Models.dll
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\bin\Debug\net6.0\VetSystem.Models.pdb
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\VetSystem.Models.csproj.AssemblyReference.cache
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\VetSystem.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\VetSystem.Models.AssemblyInfoInputs.cache
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\VetSystem.Models.AssemblyInfo.cs
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\VetSystem.Models.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\VetSystem.Models.dll
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\refint\VetSystem.Models.dll
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\VetSystem.Models.pdb
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Models\obj\Debug\net6.0\ref\VetSystem.Models.dll

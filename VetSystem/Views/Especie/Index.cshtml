@@ -1,0 +1,75 @@
+﻿@model IEnumerable<VetSystem.Models.Models.EspecieModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1  class="font-roboto fw-bold mt-5 mb-5">Bichos</h1>
+
+<p>
+    | <a class="text-decoration-none border bg-verde-agua text-white ps-3 pe-3 pt-1 pb-1 rounded" asp-action="Create"><span class="fw-bold h4 pe-1">+</span>Animal</a> | 
+    <a class="text-decoration-none border bg-verde-agua text-white ps-3 pe-3 pt-1 pb-1 rounded" asp-area="" asp-controller="Cliente" asp-action="Create"><span class="fw-bold h4 pe-1">+</span>Cliente</a> |
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Raca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PesoKg)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cor)
+            </th>
+            <th>
+                Ações
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="fw-normal">
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Raca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PesoKg)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cor)
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", "Especie", new {  valor=item.Id  })"><i class="fa-solid fa-pen-to-square text-black" title="Editar"></i></a>
+
+                @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }, new{@class= "text-decoration-none border bg-warning text-white ps-3 pe-3 pt-1 pb-1 fw-bold rounded"}) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ }, new{@class= "text-decoration-none border bg-danger text-white ps-3 pe-3 pt-1 pb-1 fw-bold rounded"})*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

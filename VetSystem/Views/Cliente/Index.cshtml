@@ -1,0 +1,62 @@
+﻿@model IEnumerable<VetSystem.Models.Models.ClienteModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="font-roboto fw-bold mt-5 mb-5">Nossos Clientes</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Celular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                Ações
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="fw-normal">
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", "Cliente", new {  valor=item.Cpf  })"><i class="fa-solid fa-pen-to-square text-black pe-1" title="Editar"></i></a> | 
+                <a href="@Url.Action("Details", "Cliente", new {  valor=item.Cpf  })"><i class="fa fa-eye text-black ps-1" title="Detalhes"></i></a>
+               @* @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }, new{@class= "text-decoration-none border bg-warning text-white ps-3 pe-3 pt-1 pb-1 fw-bold rounded"}) |*@
+@*                @Html.ActionLink("Delete", "Delete", new {  valor=item.Cpf  }, new{@class= "text-decoration-none border bg-danger text-white ps-3 pe-3 pt-1 pb-1 fw-bold rounded"})
+*@            </td>
+        </tr>
+}
+    </tbody>
+</table>

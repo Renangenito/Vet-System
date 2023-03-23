@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xSUD1HK5H0c13yPvoAevVQqjWCUgLfdHE6SS1rmlpIo=",
+  "Source": "VetSystem.API",
+  "BasePath": "_content/VetSystem.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

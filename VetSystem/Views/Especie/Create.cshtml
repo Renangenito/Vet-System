@@ -1,0 +1,34 @@
+﻿@model VetSystem.Models.Models.EspecieModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="fw-bold">Cadastro</h1>
+
+
+<hr />
+<div class="row col-12 align-items-center mt-5">
+    <div class="col col-6">
+        <img class="col-8 shadow-lg rounded" src="~/img/veterinario-cao.png">
+    </div>
+
+
+
+    <div class="col-md-6">
+        <form asp-action="Create" class="col-12">
+           
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <partial name="_Especie" />
+        </form>
+
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -1,0 +1,67 @@
+﻿
+@model VetSystem.Models.Models.EspecieModel
+
+
+    
+
+    <div class="col-md-11">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h4 class="fw-bold">Cadastrar Animal</h4>
+                @*    <input asp-for="Id" class="form-control" readonly hidden/>*@
+            <div class="row col-12 mb-2">
+                <div class="form-group col-12">
+                    <label asp-for="Nome" class="control-label text-verde-escuro fw-bold"></label>
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row col-12 mb-2">
+                <div class="form-group col-6">
+                    <label asp-for="Tipo" class="control-label text-verde-escuro fw-bold"></label>
+                    <input asp-for="Tipo" class="form-control" />
+                    <span asp-validation-for="Tipo" class="text-danger"></span>
+                </div>
+              <div class="row col-6 m-0 p-0 pe-3">
+                     <label asp-for="Sexo" class="control-label text-verde-escuro fw-bold"></label>
+                    <select asp-for="Sexo" asp-items="ViewBag.Veiculos" class="form-control m-0">
+                        <option disabled selected>--Selecione o sexo do animal--</option>
+                        <option>M</option>
+                        <option>F</option>
+                    </select>
+                    </div>
+            </div>
+            <div class="row col-12 mb-2">
+                <div class="form-group col-12">
+                    <label asp-for="Raca" class="control-label text-verde-escuro fw-bold"></label>
+                    <input asp-for="Raca" class="form-control" />
+                    <span asp-validation-for="Raca" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row col-12">
+                <div class="form-group col-6 mb-2">
+                    <label asp-for="DataNascimento" class="control-label text-verde-escuro fw-bold"></label>
+                    <input asp-for="DataNascimento" class="form-control" />
+                    <span asp-validation-for="DataNascimento" class="text-danger"></span>
+                </div>
+                <div class="form-group col-6">
+                    <label asp-for="PesoKg" class="control-label text-verde-escuro fw-bold"></label>
+                    <input asp-for="PesoKg" class="form-control" />
+                    <span asp-validation-for="PesoKg" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row col-12">
+                <div class="form-group col-12">
+                    <label asp-for="Cor" class="control-label text-verde-escuro fw-bold"></label>
+                    <input asp-for="Cor" class="form-control" />
+                    <span asp-validation-for="Cor" class="text-danger"></span>
+                </div>
+            </div> 
+             
+            <div class="row col-12 justify-content-between p-2 mt-4">
+                <div class="row col-5 ">
+                    <a class="text-decoration-none btn btn-outline-primary " asp-action="Index">< Voltar para a Lista</a>
+                </div>
+                <div class="row col-5 justify-content-end">
+                    <input type="submit" value="Cadastrar" class="btn btn-primary" />
+                </div>
+            </div>

@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+  font-size: 14px;
+}
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.bg-linear-gradiente {
+    background: linear-gradient(57.75deg,#1f749f 14.18%,#20bec6 79.49%);
+}
+.bg-verde-agua {
+    background-color: #20bec6;
+}
+.text-verde-agua {
+    color: #20bec6;
+}
+.text-verde-escuro {
+    color: #1f749f;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}

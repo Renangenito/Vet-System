@@ -1,0 +1,36 @@
+﻿@model VetSystem.Models.Models.ClienteModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="fw-bold mt2">Cadastrar</h1>
+
+<h4 class=" fw-bold">Novo Cliente</h4>
+<hr />
+<div class="row d-flex">
+
+    <div class="col col-md-6 mt-3">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <partial name="_Cliente" />
+            <div class="row col-12 justify-content-between p-2 mt-2">
+                <div class="row col-4 ">
+                    <a class="text-decoration-none btn btn-outline-primary" asp-action="Index">< Voltar para a Lista</a>
+                </div>
+                <div class="row col-4 justify-content-end">
+                    <input type="submit" value="Cadastrar" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

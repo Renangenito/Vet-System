@@ -1,0 +1,15 @@
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\bin\Debug\net6.0\VetSystem.Infra.deps.json
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\bin\Debug\net6.0\VetSystem.Infra.dll
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\bin\Debug\net6.0\VetSystem.Infra.pdb
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\bin\Debug\net6.0\VetSystem.Models.dll
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\bin\Debug\net6.0\VetSystem.Models.pdb
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.csproj.AssemblyReference.cache
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.AssemblyInfoInputs.cache
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.AssemblyInfo.cs
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.csproj.CopyComplete
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.dll
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\refint\VetSystem.Infra.dll
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\VetSystem.Infra.pdb
+C:\Users\Renan\source\repos\VetSystem\VetSystem.Infra\obj\Debug\net6.0\ref\VetSystem.Infra.dll
